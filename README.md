@@ -1,0 +1,2 @@
+# study_graph_ql_in_d_gourp_front
+Dの人たちと勉強するための個人リポジトリフロント編
