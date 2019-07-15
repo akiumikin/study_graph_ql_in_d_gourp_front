@@ -1,5 +1,6 @@
 import React from 'react';
-import {render} from 'react-dom';
+import { render } from 'react-dom';
+import './favicon.ico' // importすることでコンパイルに含められる index.htmlで設定している
 
 class App extends React.Component {
   render () {

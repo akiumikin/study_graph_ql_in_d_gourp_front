@@ -19,6 +19,13 @@ export default {
         test: /\.jsx$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
+      },
+      {
+        test: /favicon\.ico$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+        }
       }
     ]
   },
