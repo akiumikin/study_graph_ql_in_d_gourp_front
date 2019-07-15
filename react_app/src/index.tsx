@@ -1,10 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { Routes } from './routes'
 import './favicon.ico';
 
-import { App } from './components/App';
-
 ReactDOM.render(
-  <App compiler="TypeScript" framework="React" />,
+  <Routes />,
   document.getElementById('app')
 );
