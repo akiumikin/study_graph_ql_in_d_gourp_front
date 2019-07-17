@@ -27,6 +27,21 @@ https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/4
   
   
 ### 機能設定
-
 faviconの設定  
 https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/2  
+
+## GraphQL
+apollo-clientの導入とqueryを使ったサンプルデータの取得  
+https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/5  
+
+## 以下はこれからやること
+1. 別の個人リポジトリで作成しているrails + graphqlのサーバーへの接続設定
+1. 一通りのクエリと取得データの画面表示
+1. mutationの実行（フォームは使用せず固定値）
+1. フォームの設定とmutation
+1. フォームのバリデーション
+1. コンポーネント化をしたときの描画サイクルの確認
+1. material-uiを試す
+1. device認証を行う
+1. サーバーへfileのアップロードをする
+1. キャッシュ周りの動きの確認
