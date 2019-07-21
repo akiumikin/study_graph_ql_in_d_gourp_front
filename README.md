@@ -30,12 +30,17 @@ https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/4
 faviconの設定  
 https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/2  
 
-## GraphQL
+### GraphQL
 apollo-clientの導入とqueryを使ったサンプルデータの取得  
 https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/5  
   
 別の個人リポジトリのrailsサーバーへアクセスするための接続設定  
 https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/6  
+
+### material-ui
+material-uiの導入 + loading, paper, appBarの導入  
+https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/7  
+
 
 ## 以下はこれからやること
 1. 一通りのクエリと取得データの画面表示
