@@ -1,6 +1,12 @@
+// react
 import * as React from 'react';
+
+// graphQL
 import gql from 'graphql-tag';
 import { Query } from 'react-apollo';
+
+// material-ui
+import CircularProgress from '@material-ui/core/CircularProgress'
 
 const query = gql`
   {
@@ -18,7 +24,7 @@ const query = gql`
 export const User = () => (
   <Query query={query}>
     {({ loading, data }: any) => {
-      if (loading) return <p>Loading...</p>;
+      if (loading) return <CircularProgress className='loading' />;
 
       const user = data.user;
       const tags = data.user.tags;
