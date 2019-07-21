@@ -48,7 +48,6 @@ https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/7
 1. フォームの設定とmutation
 1. フォームのバリデーション
 1. コンポーネント化をしたときの描画サイクルの確認
-1. material-uiを試す
 1. device認証を行う
 1. サーバーへfileのアップロードをする
 1. キャッシュ周りの動きの確認
