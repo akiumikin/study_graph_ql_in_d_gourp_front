@@ -5,10 +5,8 @@ import { onError } from 'apollo-link-error'
 import { ApolloLink } from 'apollo-link'
 
 const httpLink = new HttpLink({
-  uri: 'https://api.github.com/graphql',
-  headers: {
-    authorization: `Bearer ${githubのtokenがはいるよ}`
-  }
+  uri: 'http://localhost:3000/graphql',
+  headers: {}
 });
 
 const errorLink = onError(({ graphQLErrors, networkError }) => {
