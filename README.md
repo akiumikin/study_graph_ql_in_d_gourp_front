@@ -33,9 +33,11 @@ https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/2
 ## GraphQL
 apollo-clientの導入とqueryを使ったサンプルデータの取得  
 https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/5  
+  
+別の個人リポジトリのrailsサーバーへアクセスするための接続設定  
+https://github.com/akiumikin/study_graph_ql_in_d_group_front/pull/6  
 
 ## 以下はこれからやること
-1. 別の個人リポジトリで作成しているrails + graphqlのサーバーへの接続設定
 1. 一通りのクエリと取得データの画面表示
 1. mutationの実行（フォームは使用せず固定値）
 1. フォームの設定とmutation
