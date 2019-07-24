@@ -21,6 +21,10 @@ const query = gql`
   }
 `;
 
+/**
+ * 下記のリポジトリのユーザーを取得して表示させる画面
+ * https://github.com/akiumikin/study_graph_ql_in_d_group
+ */
 export const User = () => (
   <Query query={query}>
     {({ loading, data }: any) => {
