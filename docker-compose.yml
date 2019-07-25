@@ -2,7 +2,7 @@ version: '3.7'
 services:
   webpack:
     build: .
-    image: webpack:1.0
+    image: webpack:1.1
     container_name: webpack
     tty: true
     stdin_open: true
