@@ -1,5 +1,6 @@
 // react
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 // @material-ui
 import AppBar from '@material-ui/core/AppBar';
@@ -8,9 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
-
-// components
-import { AppBarItem } from './routeItem';
+import MenuItem from '@material-ui/core/MenuItem';
 
 /**
  * 画面上部のBarのcomponent
@@ -40,7 +39,8 @@ export function MyAppBar() {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <AppBarItem handleClose={handleClose}/>
+            <MenuItem onClick={handleClose}><Link to='/'>TopPage</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link to='/user'>User</Link></MenuItem>
           </Menu>
           <Typography variant="h6" color="inherit">
             MyGraphQL
